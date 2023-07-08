@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T17:42:43 BDT" name="Automation" finished-at="2023-07-08T17:43:12 BDT" duration-ms="28923">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T17:42:43 BDT" name="LoginTest" finished-at="2023-07-08T17:43:12 BDT" duration-ms="28923">
+      <class name="com.it.bd.tests.DashboardTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.it.bd.tests.DashboardTest@15043a2f]" started-at="2023-07-08T17:43:10 BDT" name="openUrl" finished-at="2023-07-08T17:43:12 BDT" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="DashboardTest()[pri:0, instance:com.it.bd.tests.DashboardTest@15043a2f]" started-at="2023-07-08T17:43:12 BDT" name="DashboardTest" finished-at="2023-07-08T17:43:12 BDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardTest -->
+      </class> <!-- com.it.bd.tests.DashboardTest -->
+      <class name="com.it.bd.tests.LoginTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.it.bd.tests.LoginTest@7bba5817]" started-at="2023-07-08T17:42:41 BDT" name="start" finished-at="2023-07-08T17:42:43 BDT" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.it.bd.tests.LoginTest@7bba5817]" started-at="2023-07-08T17:42:43 BDT" name="openUrl" finished-at="2023-07-08T17:42:54 BDT" duration-ms="11185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="loginTest()[pri:0, instance:com.it.bd.tests.LoginTest@7bba5817]" started-at="2023-07-08T17:42:54 BDT" name="loginTest" finished-at="2023-07-08T17:43:10 BDT" duration-ms="15728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.it.bd.tests.LoginTest@7bba5817]" started-at="2023-07-08T17:43:12 BDT" name="close" finished-at="2023-07-08T17:43:12 BDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.it.bd.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Automation -->
+</testng-results>

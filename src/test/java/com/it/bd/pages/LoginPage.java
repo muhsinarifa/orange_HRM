@@ -12,7 +12,7 @@ public class LoginPage extends CommonMethods{
 	/*
 	 * 1.PageFactory initialization
 	 * 2. Locators
-	 * 3.
+	 * 3. functions
 	 */
 	public LoginPage() {
 		PageFactory.initElements(PageDriver.getCurrentDriver(), this);
@@ -29,8 +29,8 @@ public class LoginPage extends CommonMethods{
 	
 	@FindBys({
 		@FindBy(xpath = "//input[@type='password']"),
-		@FindBy(xpath = "//input[@placeholder='Password']"),
-		@FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]")
+//		@FindBy(xpath = "//input[@placeholder='Password']"),
+//		@FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]")
 	})
 	
 	WebElement password;
@@ -41,7 +41,8 @@ public class LoginPage extends CommonMethods{
 	
 	WebElement loginButton;
 	
-	public void login() {
+	public void login() throws InterruptedException {
+		timeout();
 		try {
 			if(userName.isDisplayed()) {
 				userName.sendKeys("Admin");
